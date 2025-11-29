@@ -1,0 +1,17 @@
+{
+  "name": "rawaa-portable",
+  "version": "1.0.0",
+  "description": "Rawaa ERP - Portable Standalone",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "bin": "dist/index.cjs",
+  "pkg": {
+    "assets": [
+      "dist/public/**/*"
+    ],
+    "targets": [
+      "win-x64"
+    ],
+    "outputPath": "releases"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "pkg": {
+    "assets": [
+      "dist/public/**/*"
+    ],
+    "targets": [
+      "win-x64"
+    ],
+    "outputPath": "."
+  }
+}
